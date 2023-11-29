@@ -1,0 +1,12 @@
+.carousel {
+
+    overflow: hidden;
+}
+.slide {
+    display: none; 
+  }
+  
+  .slideActive {
+    display: block;
+    height: 100%;
+  }

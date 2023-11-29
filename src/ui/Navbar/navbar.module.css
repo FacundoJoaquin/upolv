@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    width: 100dvw;
+    justify-content: space-around;
+
+    .ulWrapper{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+    .link {
+        color: black;
+        text-decoration: none;
+    }
+    .selected {
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-style: wavy;
+        text-decoration-thickness: 3px;
+        text-decoration-color: #f19d71;
+    }
+}

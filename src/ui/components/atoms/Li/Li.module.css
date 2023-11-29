@@ -1,0 +1,17 @@
+.box {
+    color: black;
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+    text-decoration: transparent;
+    transition: 0.3s ease-in-out;
+    
+}
+
+.box:hover {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #f19d71;
+}
